@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--=================== Meta =============================-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cart App</title>
+    <!--=================== Styles =============================-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Karla|Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/plugins/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!--=================== Header Start =============================-->
+
+    <main class="site-main">
+      <!--=================== Content Start =============================-->
+      <section class="site-content default-padding">
+        <div class="wrapper-fluid">
+          <div class="row">
+            <!-- Left (Products) -->
+            <div class="wrap-md-8">
+              <h2 class="title">Products</h2>
+              <div class="products-list">
+                <div class="row">
+                  <!-- Product Item -->
+                  <div class="wrap-lg-4 wrap-md-6 wrap-6">
+                    <div class="product-card">
+                      <div class="product-card-img">
+                        <img
+                          class="product-img"
+                          src="assets/img/products/product2.jpg"
+                          alt="product1"
+                          srcset="assets/img/products/product2.jpg 100w"
+                        />
+                      </div>
+                      <div class="product-card-content">
+                        <h1 class="product-name">Product 2</h1>
+                        <p class="price">
+                          <span class="currency">Rs</span>
+                          <span class="product-amount">200</span>
+                        </p>
+                      </div>
+                      <div class="product-card-footer">
+                        <button
+                          type="button"
+                          class="add-to-cart"
+                          data-action="add-to-cart"
+                        >
+                          Add To Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product Item -->
+                  <div class="wrap-lg-4 wrap-md-6  wrap-6">
+                    <div class="product-card">
+                      <div class="product-card-img">
+                        <img
+                          class="product-img"
+                          src="assets/img/products/product3.jpg"
+                          alt="product1"
+                          srcset="assets/img/products/product3.jpg 100w"
+                        />
+                      </div>
+                      <div class="product-card-content">
+                        <h1 class="product-name">Product 1</h1>
+                        <p class="price">
+                          <span class="currency">Rs</span>
+                          <span class="product-amount">300</span>
+                        </p>
+                      </div>
+                      <div class="product-card-footer">
+                        <button
+                          type="button"
+                          class="add-to-cart"
+                          data-action="add-to-cart"
+                        >
+                          Add To Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product Item -->
+                  <div class="wrap-lg-4 wrap-md-6  wrap-6">
+                    <div class="product-card">
+                      <div class="product-card-img">
+                        <img
+                          class="product-img"
+                          src="assets/img/products/product4.jpg"
+                          alt="product1"
+                          srcset="assets/img/products/product4.jpg 100w"
+                        />
+                      </div>
+                      <div class="product-card-content">
+                        <h1 class="product-name">Product 3</h1>
+                        <p class="price">
+                          <span class="currency">Rs</span>
+                          <span class="product-amount">100</span>
+                        </p>
+                      </div>
+                      <div class="product-card-footer">
+                        <button
+                          type="button"
+                          class="add-to-cart"
+                          data-action="add-to-cart"
+                        >
+                          Add To Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product Item -->
+                  <div class="wrap-lg-4 wrap-md-6  wrap-6">
+                    <div class="product-card">
+                      <div class="product-card-img">
+                        <img
+                          class="product-img"
+                          src="assets/img/products/product5.jpg"
+                          alt="product1"
+                          srcset="assets/img/products/product5.jpg 100w"
+                        />
+                      </div>
+                      <div class="product-card-content">
+                        <h1 class="product-name">Product 4</h1>
+                        <p class="price">
+                          <span class="currency">Rs</span>
+                          <span class="product-amount">400</span>
+                        </p>
+                      </div>
+                      <div class="product-card-footer">
+                        <button
+                          type="button"
+                          class="add-to-cart"
+                          data-action="add-to-cart"
+                        >
+                          Add To Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Right (Cart) -->
+            <div class="wrap-md-4">
+              <h2 class="title">Carts <sup class="items-total "></sup></h2>
+              <!-- CART DOM -->
+              <div class="cart-items-dom"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=================== Scripts =============================-->
+    <script src="assets/js/all.js"></script>
+  </body>
+</html>
